@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Test from './Navbar';
+import NavigationBar from './Navbar';
+import Home from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Test />
+    <NavigationBar />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

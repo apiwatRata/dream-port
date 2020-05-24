@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './bg.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 
-function Test() {
+function NavigationBar() {
   return (
     <Navbar bg="dark" variant="dark" sticky="top">
     <Navbar.Brand href="#home">
@@ -15,7 +15,7 @@ function Test() {
         height="30"
         className="d-inline-block align-top"
       />{' '}
-      Dream-Port
+      DREAMPORT
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -29,4 +29,4 @@ function Test() {
   </Navbar>
   )
 }
-export default Test;
+export default NavigationBar;
