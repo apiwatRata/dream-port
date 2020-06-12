@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1><b>Welcome to my Galaxy</b></h1>
+      <h1 className="App-slide-text"><b>Welcome to my Galaxy</b></h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>

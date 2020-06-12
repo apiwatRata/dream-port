@@ -8,6 +8,12 @@
   animation: App-logo-spin infinite 25s linear;
 }
 
+.App-slide-text{
+  margin-left: -100%;
+  animation: App-slide-text 1s;
+  animation-fill-mode: forwards;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,4 +36,8 @@
     to {
       transform: rotate(360deg);
     }
+  }
+
+  @keyframes App-slide-text {
+    100%{margin-left: 0}
   }
